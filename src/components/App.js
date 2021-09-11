@@ -7,7 +7,7 @@ import useVideos from '../hooks/useVideos';
 const App = ()=>{
     
     const[selectedVideo,setSelectedVideo]=useState(null);
-     const [videos,search]=useVideos('swejal shrestha When september ends cover-Green day');
+     const [videos,search]=useVideos('Web development');
 
  useEffect(()=>{
     setSelectedVideo(videos[0]);
